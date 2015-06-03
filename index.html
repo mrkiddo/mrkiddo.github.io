@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jiawei Luo Personal Zone - Web Developer</title>
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -14,7 +14,11 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <!-- Custom style -->
-
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Boostrap Scripts -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -35,8 +39,9 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Recent Projects</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Job Contact</a></li>
+          <li><a href="courseworks.html">Courseworks</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Job Contact</a></li>
         </ul>
       </div>
 
@@ -44,80 +49,73 @@
 
   </nav><!-- nav ends -->
 
-  <div class="container">
-  	<h1>I Love Web Development!</h1>
-  	<p>Everything about Web. A graduate of University of Ottawa.</p>
+  <div class="banner"><!-- banner -->
+    <div class="container">
+      <h1>I Love Web Development!</h1>
+      <p>Everything about Web. A graduate of University of Ottawa.</p>
+    </div>
   </div>
 
   <div class="container"><!-- main content -->
 
-    <div class="row"><!-- item -->
+    <div class="row item"><!-- item -->
     	
       <div class="col-md-8">
-      	<h1>jQuery Plug-in</h1>
-        <p>I create a series of jQuery based plug-ins to help simple and fast implmentation of components for web pages.</p>
+      	<h2>jQuery Plug-in</h2><hr>
+        <p>I create a series of jQuery based plug-ins to provie simpler and fast implementation of componenets for web pages. Currently, four plug-ins are avaible. No fancy stuff but help users to extend their customization and fit their needs.</p>
       </div>
 
       <div class="col-md-4">
         <ul>
-          <li>Image Slider</li>
-          <li>Image Magnifier</li>
-          <li>Drop down Navbar/Menu</li>
-          <li>Text Tabs</li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="Image Slider" data-img="img/avatar.jpg" data-link="http://www.google.ca"><span class="glyphicon glyphicon-picture"></span> Image Slider</button></li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="Image Magnifier" data-img="img/avatar.jpg"><span class="glyphicon glyphicon-picture"></span> Image Magnifier</button></li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="Drop down Menu" data-img="img/avatar.jpg"><span class="glyphicon glyphicon-list"></span> Drop down Menu</button></li>
         </ul>
       </div>
 
     </div><!-- item ends -->
 
-    <div class="row"><!-- item -->
+    <div class="row item"><!-- item -->
     	
       <div class="col-md-8">
-      	<h1>PHP MVC</h1>
-        <p>I create a series of jQuery based plug-ins to help simple and fast implmentation of components for web pages.</p>
+      	<h2>PHP MVC: Kiddo's Lens</h2><hr>
+        <p>A relatively complete online store that includes a typical online shopping business cycle. The website is based on a open source PHP MVC framework,  thinkPHP, and it can be easily extended for extra modules and functionalities. The MySQL database is used and thanks to the framework, the APIs are effciently controlling all the data and business logic.</p>
       </div>
 
       <div class="col-md-4">
         <ul>
-          <li>Image Slider</li>
-          <li>Image Magnifier</li>
-          <li>Drop down Navbar/Menu</li>
-          <li>Text Tabs</li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="Kiddos Lens Online Store" data-img="img/avatar.jpg"><span class="glyphicon glyphicon-eye-open"></span> Preview</button></li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="Login Suite" data-img="img/avatar.jpg"><span class="glyphicon glyphicon-log-in"></span> Login Suite</button></li>
         </ul>
       </div>
 
     </div><!-- item ends -->
 
-    <div class="row"><!-- item -->
+    <div class="row item"><!-- item -->
     	
       <div class="col-md-8">
-      	<h1>AnguarJS</h1>
-        <p>I create a series of jQuery based plug-ins to help simple and fast implmentation of components for web pages.</p>
+      	<h2>AnguarJs: Just Vote</h2><hr>
+        <p>A work that based on one of the most heated and powerful Javascript framework, AngularJS. The data is boosted by firebase, which works perfectly with AngularJS. In this App, you can vote for the interesting things that other people concerns or create your vote to see how many people support you or not. In the next step, this App will transplant to mobile platforms through Ionic/Cordova.</p>
       </div>
 
       <div class="col-md-4">
         <ul>
-          <li>Image Slider</li>
-          <li>Image Magnifier</li>
-          <li>Drop down Navbar/Menu</li>
-          <li>Text Tabs</li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="Just Vote!" data-img="img/avatar.jpg" data-link=""><span class="glyphicon glyphicon-eye-open"></span> Preview</button></li>
         </ul>
       </div>
 
     </div><!-- item ends -->
 
-    <div class="row"><!-- item -->
+    <div class="row item"><!-- item -->
     	
       <div class="col-md-8">
-      	<h1>WordPress Theme</h1>
-        <p>I create a series of jQuery based plug-ins to help simple and fast implmentation of components for web pages.</p>
+      	<h2>WordPress Theme: Chocolate</h2><hr>
+        <p>An original wordpress theme built for my photography blog. It provides a chocolate style atmosphere and is featured with images. It is Bootstrap based and helps me to be familiar with WordPress APIs. This theme is reusable for personal blogs that emphasizing their images.</p>
       </div>
 
       <div class="col-md-4">
         <ul>
-          <li>Image Slider</li>
-          <li>Image Magnifier</li>
-          <li>Drop down Navbar/Menu</li>
-          <li>Text Tabs</li>
+          <li><button class="btn btn-default" data-toggle="modal" data-target="#previewModal" data-whatever="WP Chocoloate Theme" data-img="img/avatar.jpg"><span class="glyphicon glyphicon-eye-open"></span> Preview</button></li>
         </ul>
       </div>
 
@@ -125,5 +123,48 @@
 
   </div><!-- main content ends -->
 
+  <!-- Modal -->
+  <div class="modal fade" id="previewModal" tabindex="-1" role="dialog" aria-labelledby="previewModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="previewModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <img class="modal-img" src="" alt="preview image">
+        </div>
+        <div class="modal-footer">
+          <a type="button" class="btn btn-info modal-link" target="_blank">View in Github</a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal ends -->
+
+  <div class="footer">
+    <p>2015 - Jiawei Luo - Nick Name: Kiddo Lo - Web Developer - Job - Please <a href="#">Contact me</a> -</p>
+  </div>
+
+<script type="text/javascript">
+
+  
+  $(document).ready(function(){
+
+    $('#previewModal').on('show.bs.modal', function(event){
+      var btn = $(event.relatedTarget);
+      var info = {};
+      info.title = btn.data('whatever');
+      info.img = btn.data('img');
+      info.link = btn.data('link');
+      var modal = $(this);
+      modal.find('.modal-title').text(info.title);
+      modal.find('.modal-img').attr("src", info.img);
+      modal.find('.modal-link').attr("href", info.link);
+    });
+
+  });
+
+</script>
 </body>
 </html>
