@@ -3,78 +3,76 @@
 
 body {
 	min-height: 600px;
+	padding-top: 76px;
 }
 
 .banner {
 	margin-bottom: 40px;
 	padding-top: 20px;
-	min-height: 250px;
+	min-height: 300px;
 	background-color: #eee;
+	background-image: url(../img/banner_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
 .banner h1 {
 	font-size: 50px;
 }
 
+.main-content {
+	padding-bottom: 60px;
+}
+
 .item {
-	margin-bottom: 30px;
-	padding: 0px 10px 0px 10px;
-	min-height: 350px;
-	border: 1px solid #eee;
-	border-radius: 15px;
+	padding: 10px;
 }
 
-.item h2 {
-	padding-top: 5px;
-	padding-bottom: 30px;
+.item-link {
+	font-size: 20px;
+    background-color: #eee;
+    border: 0;
 }
 
-.item ul {
-	padding-top: 40px;
+.item-content {
+	background-color: #eee;
+	padding: 1px 10px 25px 15px;
+	min-height: 370px;
 }
 
-.item ul li {
-	list-style: none;
-	display: block;
-	padding: 5px 0px 5px 0px;
+.item-tag {
+	margin-top: 50px;
 }
 
-.basic-info {
+.item-ongo {
+	margin-top: 30px;
+}
+
+.work-item {
+	padding-bottom: 40px;
+}
+
+.work-item-ls {
+	margin-bottom: 50px;
+}
+
+.title-wrapper {
 	text-align: center;
 }
 
-.avatar {
-	width: 200px;
-	height: 170px;
-	border-radius: 50%;
-}
-
-.info {
-	margin-top: 40px;
-	margin-bottom: 120px;
+.ready-title {
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
-.email {
-	font-size: 16px;
-}
-
-.email > span {
-	font-size: 16px;
-}
-
-.modal-img {
-	width: 80%;
-	height: 80%;
-}
-
-.hire-zone {
-	text-align: center;
+.row-ready {
+	padding-bottom: 80px;
 }
 
 .footer {
 	margin-top: 30px;
-	padding: 30px 0px 0px 0px;
+	padding: 40px 0px 0px 0px;
 	min-height: 160px;
 	background-color: #eee;
 	text-align: center;
@@ -92,4 +90,16 @@ body {
 
 .modal-body {
 	text-align: center;
+}
+
+.tab-content {
+	padding: 20px;
+	min-height: 300px !important;
+}
+
+.well {
+	border: 0;
+    border-radius: 0;
+    background-color: #34495E;
+    margin-top: 40px;
 }

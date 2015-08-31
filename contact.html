@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jiawei Luo Personal Zone - Web Developer</title>
+<title>Jiawei Luo - Web Developer</title>
+<!-- Facvicon icon -->
+<link rel="icon" href="favicon.ico">
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -13,17 +15,23 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+<!-- Flat ui -->
+<link rel="stylesheet" type="text/css" href="css/flat-ui.css" />
 <!-- Custom style -->
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Boostrap Components -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
-  <nav class="navbar navbar-default navbar-static-top"><!-- nav -->
+  <nav class="navbar navbar-default navbar-inverse navbar-lg navbar-fixed-top"><!-- nav -->
 
-    <div class="container-fluid"><!-- nav container -->
+    <div class="container"><!-- nav container -->
 
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -32,12 +40,12 @@
         <a class="navbar-brand" href="index.html">JW Luo</a>
       </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+      <div class="collapse navbar-collapse" id="navbar-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Recent Projects</a></li>
-          <li><a href="courseworks.html">Courseworks</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li class="active"><a href="#">Hire me</a></li>
+          <li><a href="index.html" title="See my Portfolios">Recent Projects</a></li>
+          <li><a href="courseworks.html" title="See my Coursework">Coursework</a></li>
+          <li><a href="resume.html" title="See my Resume">Resume</a></li>
+          <li class="active"><a href="#" title="If you wanna hire me...">Hire me</a></li>
         </ul>
       </div>
 
@@ -47,29 +55,85 @@
 
   <div class="banner"><!-- banner -->
     <div class="container">
-      <h1>Hire me</h1>
-      <p>Everything about Web. A graduate of University of Ottawa.</p>
+      <h1>Contact Info</h1>
+      <p><strong>Jiawei Luo's world. Everything about Web. Keep rolling forward.</strong></p>
     </div>
   </div>
 
   <div class="container"><!-- main content -->
 
-    <div class="basic-info">
-      <img class="avatar" src="img/avatar.jpg">
-      <h4>Jiawei Luo</h4>
-      <h5><strong> - Web Developer - </strong></h5>
+    <div class="row">
+
+      <div class="title-wrapper">
+        <img src="img/avatar_sm.jpg" class="img-circle">
+        <h4>- Web Developer, Programmer and Designer -</h4>
+        <div class="well">
+          <a href="mailto:jluo3036@gmail.com" target="_blank" class="btn btn-success" title="my primary e-mail"><span class="fui-mail"> jluo3036@gmail.com</a>
+          <a href="https://www.facebook.com/jw.lo.14" target="_blank" class="btn btn-info" title="join my facebook"><span class="fui-facebook"></span></a>
+          <a href="https://ca.linkedin.com/pub/jiawei-luo/100/806/a29" target="_blank" class="btn btn-info" title="join my linkedin"><span class="fui-linkedin"></span></a>
+          <a href="https://github.com/mrkiddo" target="_blank" class="btn btn-info" title="join my at github"><span class="fui-github"></span></a>
+          <a href="https://instagram.com/mister_kiddo/" target="_blank" class="btn btn-info" title="join my instagram"><span class="fui-instagram"></span></a>
+        </div>
+      </div>
+
     </div>
 
-    <div class="well info">
-      <h3>If you have any job request/inquiry, Please feel free to contact me.</h3>
-      <p class="email"><strong>Email:</strong> <span class="label label-info">jluo3036@gmail.com</span></p>
-      <a class="btn btn-default" href="mailto:jluo3036@gmail.com">Mail me</a>
+    <div class="row row-ready">
+
+      <div class="ready-title"> 
+        <h4>I am here for: </h4>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail" align="center">
+          <div>
+            <img src="img/html5_thumb.png" class="img-responsive">
+          </div>
+          <div class="caption">
+            <h4>HTML5</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail" align="center">
+          <div>
+            <img src="img/angularjs_thumb.png" class="img-responsive">
+          </div>
+          <div class="caption">
+            <h4>JavaScript</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail" align="center">
+          <div>
+            <img src="img/nodejs_thumb.png" class="img-responsive">
+          </div>
+          <div class="caption">
+            <h4>PHP/Node.js</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail" align="center">
+          <div>
+            <img src="img/sql_thumb.png" class="img-responsive">
+          </div>
+          <div class="caption">
+            <h4>SQL/MongoDB</h4>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div><!-- main content ends -->
 
   <div class="footer">
-    <p>2015 - Jiawei Luo - Nick Name: Kiddo Lo - Web Developer - Job - Please <a href="#">Contact me</a> -</p>
+     <p>Big Year 2015 - <strong>Jiawei Luo</strong> - Web Developer - Programmer - Designer - <a href="contact.html">Job Contact</a> -</p>
   </div>
 
 </body>
