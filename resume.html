@@ -6,23 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jiawei Luo - Web Developer</title>
 <!-- Facvicon icon -->
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="favicon.png">
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-<!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 <!-- Flat ui -->
 <link rel="stylesheet" type="text/css" href="css/flat-ui.css" />
 <!-- Custom style -->
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
-<!-- jQuery -->
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<!-- Boostrap Components -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -56,7 +46,7 @@
   <div class="banner"><!-- banner -->
     <div class="container">
       <h1>My Resume</h1>
-      <p><strong>Jiawei Luo's world. Everything about Web. Keep rolling forward.</strong></p>
+      <p class="memo"><strong>Jiawei Luo's world. Everything about Web. Keep rolling forward.</strong></p>
     </div>
   </div>
 
@@ -68,7 +58,7 @@
     </div>
 
     <div class="position-title">
-      <h3 style="margin-bottom: 30px;">Resume <a class="item-link" style="background-color: #fff;" title="View a full version" target="_blank" href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtcmtpZGRvcGhvdG9zfGd4OjdmZmJkOGEwZTYzZjhlNDg"><span class="fui-link"></span></a></h3>
+      <h3 style="margin-bottom: 30px;">Resume <a class="item-link" style="background-color: #fff;" title="View a full version" target="_blank" href="resume/Jiawei_Luo_Resume_Software_Developer.pdf"><span class="fui-link"></span></a></h3>
 
       <div class="" data-example-id="togglable-tabs">
         <ul id="myTabs" class="nav nav-tabs" role="tablist">
@@ -88,17 +78,41 @@
           </div>
           <div role="tabpanel" class="tab-pane fade" id="skill" aria-labelledBy="skill-tab">
             <ul>
-              <li>JavaScript, jQuery and JS frameworks: AngularJS, BackboneJS</li>
-              <li>HTML/HTML5, CSS and UI framework Bootstrap</li>
-              <li>Server-end development: PHP, ASP(C#) and SQL databases</li>
-              <li>C++, Java, C</li>
-              <li>Development tools: Git-hub, Visual Studio, Eclipse, Dreamweaver, Photoshop, Maya, Sublime Text, LESS, Node.js, Bower, Grunt</li>
+              <li>JavaScript Full Stack
+                <ul>
+                  <li>AngularJS/VueJS/jQuery/Ionic</li>
+                  <li>Node/Express</li>
+                  <li>Front-end Test and Tasks Automation</li>
+                </ul>
+              </li>
+              <li>HTML5 Modern Application
+                <ul>
+                  <li>CSS/scss/less</li>
+                  <li>Boostrap/MaterialUI</li>
+                  <li>Progressive Web Application</li>
+                </ul>
+              </li>
+              <li>Server-End Services
+                <ul>
+                  <li>PHP/PHP MVC/Coldfusion</li>
+                  <li>SQL Server/My SQL/MongoDB/Redis</li>
+                </ul>
+              </li>
             </ul>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="experience" aria-labelledBy="experience-tab">
             <div><!-- item -->
+              <h5>dominKnow E-Learning Systems Inc.</h5>
+              <p><strong>Web Developer Internship</strong> <i>Nov 2015 - Present</i></p>
+              <ul>
+                <li>Involve in Web based responsive E-Learning platform implementation and maintenance</li>
+                <li>Techniques: JavaScript, jQuery, Coldfusion and SQL Server database</li>
+              </ul>
+              <hr>
+            </div><!-- item end -->
+            <div><!-- item -->
               <h5>3G Portal - Guangzhou Jiubang Digital Technology Co., Ltd.</h5>
-              <p><strong>Web Developer Internship</strong> <i> Sep 2012 - April 2013</i></p>
+              <p><strong>Web Developer Internship</strong> <i>Sep 2012 - April 2013</i></p>
               <ul>
                 <li>Participated in building a customized UI framework for news and reading channels within a popular mobile portal website</li>
                 <li>Techniques: JavaScript, jQuery and PHP coding as well as designing of webpages based on HTML and CSS</li>
@@ -107,7 +121,7 @@
             </div><!-- item end -->
             <div><!-- item -->
               <h5>Guangzhou Unicorn Technology Development Co., Ltd.</h5>
-              <p><strong>Project Programmer Internship</strong> <i> May 2012 - August 2012</i></p>
+              <p><strong>Project Programmer Internship</strong> <i>May 2012 - August 2012</i></p>
               <ul>
                 <li>Participated in building a web based data management system within a Supply Chain System and the corresponding application for handhold device</li>
                 <li>Techniques: JavaScript, PHP and C coding, SQL Sever database development</li>
@@ -116,7 +130,7 @@
             </div><!-- item end -->
             <div><!-- item -->
               <h5>GZL International Travel Service Co., Ltd. </h5>
-              <p><strong>Web Developer Internship</strong> <i> June 2013 - August 2013</i></p>
+              <p><strong>Web Developer Internship</strong> <i>June 2013 - August 2013</i></p>
               <ul>
                 <li>Responsible for front-end and part of server-end development for a content management system based propaganda websit</li>
                 <li>Techniques: HTML, CSS, JavaScript/jQuery coding, PHP and MySQL database</li>
@@ -130,18 +144,23 @@
   </div><!-- main content ends -->
 
   <div class="footer">
-    <p>Big Year 2015 - <strong>Jiawei Luo</strong> - Web Developer - Programmer - Designer - <a href="contact.html">Job Contact</a> -</p>
+    <p>Big Year 2017 - <strong>Jiawei Luo</strong> - Web Developer - Programmer - Designer - <a href="contact.html">Job Contact</a> -</p>
   </div>
 
-<script type="text/javascript">
-$(document).ready(function(){
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Boostrap Components -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-  $('#myTabs a').click(function(e) {
-    e.preventDefault();
-    $(this).tab('show');
-  });
+  <script type="text/javascript">
+    $(document).ready(function(){
 
-});
-</script>
+      $('#myTabs a').click(function(e) {
+        e.preventDefault();
+        $(this).tab('show');
+      });
+
+    });
+  </script>
 </body>
 </html>

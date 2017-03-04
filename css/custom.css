@@ -14,6 +14,7 @@ body {
 	background-image: url(../img/banner_bg.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
+	background-size: cover;
 }
 
 .banner h1 {
@@ -90,6 +91,10 @@ body {
 	margin-bottom: 0;
 }
 
+#experience i {
+	float: right;
+}
+
 /* ------------------------- Override Bootstrap core CSS ------------------------- */
 
 .navbar {
@@ -98,6 +103,10 @@ body {
 
 .modal-body {
 	text-align: center;
+}
+
+.modal-img {
+	width: 100%;
 }
 
 .tab-content {

@@ -6,23 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jiawei Luo - Web Developer</title>
 <!-- Facvicon icon -->
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="favicon.png">
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-<!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 <!-- Flat ui -->
 <link rel="stylesheet" type="text/css" href="css/flat-ui.css" />
 <!-- Custom style -->
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
-<!-- jQuery -->
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<!-- Boostrap Components -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -31,7 +21,7 @@
     <div class="container"><!-- nav container -->
 
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-1">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -66,6 +56,19 @@
 
       <div class="col-sm-12 col-md-6 col-lg-4 item">
         <div class="item-content">
+          <h3>BoostChat <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="BoostChat" data-img="img/boostChat_screenshot.jpg" data-link="https://github.com/mrkiddo/boostChat"><span class="fui-link"></span></button></h3>
+          <p><strong>Real-time chat application</strong></p>
+          <p>A read-time app boosted by Nodejs provides lightening fast message experience.</p>
+          <p class="item-tag">
+            <span class="label label-info">Vuejs</span>
+            <span class="label label-success">Express</span>
+            <span class="label label-warning">MongoDB</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 item">
+        <div class="item-content">
           <h3>Just-Vote <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="Just-Vote" data-img="img/just_vote_screen_shot_sm.jpg" data-goto="https://popping-heat-1428.firebaseapp.com" data-link="https://github.com/mrkiddo/vote"><span class="fui-link"></span></button></h3>
           <p><strong>Curious about how others think</strong></p>
           <p>A delicate web app that allows you initiate your own poll and vote for the polls created by other users.</p>
@@ -78,23 +81,23 @@
 
       <div class="col-sm-12 col-md-6 col-lg-4 item">
         <div class="item-content">
-          <h3>ZineCircle <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="ZineCircle" data-img="img/zinecircle_screen_shot_sm.jpg" data-goto="http://zinecircle.com" data-link=""><span class="fui-link"></span></button></h3>
-          <p><strong>Dynamic community for youngs</strong></p>
-          <p>The most dynamic young people community in Ottawa. You can find pretty much everything here.</p>
+          <h3>BoostConsole <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="BoostConsole" data-img="img/boostConsole_screenshot.jpg" data-link="https://github.com/mrkiddo/boostConsole"><span class="fui-link"></span></button></h3>
+          <p><strong>Web based console application</strong></p>
+          <p>Built by developer for developer and touch information only through your keyboard.</p>
           <p class="item-tag">
-            <span class="label label-info">Discuz!</span>
-            <span class="label label-info">PHP</span>
+            <span class="label label-info">jQuery</span>
           </p>
         </div>
       </div>
 
       <div class="col-sm-12 col-md-6 col-lg-4 item">
         <div class="item-content">
-          <h3>Easycookhotpot <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="ZineCircle" data-img="img/easycook_screen_shot_sm.jpg" data-goto="http://easycookhotpot.com" data-link=""><span class="fui-link"></span></button></h3>
-          <p><strong>Representative website</strong></p>
-          <p>Contract project under Ottawazine Globe Inc. A delicate website for the largest hotpot and BBQ restaurant in Ottawa.</p>
+          <h3>ZineCircle <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="ZineCircle" data-img="img/zinecircle_screen_shot_sm.jpg" data-goto="http://zinecircle.com" data-link=""><span class="fui-link"></span></button></h3>
+          <p><strong>Dynamic community for youngs</strong></p>
+          <p>The most dynamic young people community in Ottawa. You can find pretty much everything here.</p>
           <p class="item-tag">
-            <span class="label label-success">WordPress</span>
+            <span class="label label-info">Discuz!</span>
+            <span class="label label-info">PHP</span>
           </p>
         </div>
       </div>
@@ -119,30 +122,6 @@
           <p class="item-tag">
             <span class="label label-info">PHP</span>
             <span class="label label-info">thinkPHP</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4 item">
-        <div class="item-content">
-          <h3>jQuery Plug-in <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="jQuery Plug-in" data-img="img/plugin-screen_shot_sm.jpg" data-goto="" data-link="https://github.com/mrkiddo/simplicity-plugins"><span class="fui-link"></span></button></h3>
-          <p><strong>Basic components to interactive website</strong></p>
-          <p>A set of jQuery based plug-ins provide necessary features for your website. Easy to use and modify.</p>
-          <p class="item-tag">
-            <span class="label label-danger">JavaScript</span>
-            <span class="label label-info">jQuery</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4 item">
-        <div class="item-content">
-          <h3>Chocolate theme <button class="item-link" data-toggle="modal" data-target="#previewModal" data-whatever="Kiddo's Lens" data-img="img/kiddo_album_screen_shot.jpg" data-goto="" data-link=""><span class="fui-link"></span></button></h3>
-          <p><strong>Lovely chocolate atmosphere</strong></p>
-          <p>A wordpress theme featured with chocolate atmosphere. Best fits your personal or organization blog.</p>
-          <p class="item-tag">
-            <span class="label label-success">WordPress</span>
-            <span class="label label-info">Bootstrap</span>
           </p>
         </div>
       </div>
@@ -177,36 +156,36 @@
   </div><!-- modal ends -->
 
   <div class="footer">
-    <p>Big Year 2015 - <strong>Jiawei Luo</strong> - Web Developer - Programmer - Designer - <a href="contact.html">Job Contact</a> -</p>
+    <p>Big Year 2017 - <strong>Jiawei Luo</strong> - Web Developer - Programmer - Designer - <a href="contact.html">Job Contact</a> -</p>
   </div>
 
-<script type="text/javascript">
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Boostrap Components -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-  
-  $(document).ready(function(){
-
-    $('#previewModal').on('show.bs.modal', function(event){
-      var btn = $(event.relatedTarget);
-      var info = {};
-      info.title = btn.data('whatever');
-      info.img = btn.data('img');
-      info.link = btn.data('link');
-      info.goto = btn.data('goto');
-      var modal = $(this);
-      modal.find('.modal-goto').hide();
-      modal.find('.modal-link').hide();
-      modal.find('.modal-title').text(info.title);
-      modal.find('.modal-img').attr("src", info.img);
-      if(info.goto){
-        modal.find('.modal-goto').attr("href", info.goto).show();
-      }
-      if(info.link){
-        modal.find('.modal-link').attr("href", info.link).show();
-      }
+  <script type="text/javascript"> 
+    $(document).ready(function(){
+      $('#previewModal').on('show.bs.modal', function(event){
+        var btn = $(event.relatedTarget);
+        var info = {};
+        info.title = btn.data('whatever');
+        info.img = btn.data('img');
+        info.link = btn.data('link');
+        info.goto = btn.data('goto');
+        var modal = $(this);
+        modal.find('.modal-goto').hide();
+        modal.find('.modal-link').hide();
+        modal.find('.modal-title').text(info.title);
+        modal.find('.modal-img').attr("src", info.img);
+        if(info.goto){
+          modal.find('.modal-goto').attr("href", info.goto).show();
+        }
+        if(info.link){
+          modal.find('.modal-link').attr("href", info.link).show();
+        }
+      });
     });
-
-  });
-
-</script>
+  </script>
 </body>
 </html>
